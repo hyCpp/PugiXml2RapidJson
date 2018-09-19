@@ -1,0 +1,23 @@
+{
+    // In the Speech to Text API, only the endpoints used differ from the previous Speech service Speech Recognition API. 
+    // The new endpoints are shown in the table below. Use the one that matches your subscription region.
+    "Region":{
+        // west us
+        "WestUS":"https://westus.stt.speech.microsoft.com/speech/recognition/dictation/cognitiveservices/v1",
+        // East Asia
+        "EastAsia":"https://eastasia.stt.speech.microsoft.com/speech/recognition/dictation/cognitiveservices/v1",
+        // North Europe
+        "NorthEurope":"https://northeurope.stt.speech.microsoft.com/speech/recognition/dictation/cognitiveservices/v1"
+     },
+    // Set language and format
+    "Setting":{
+        "language":"en-us",
+        "format":"simple"
+    },
+    // Parameters in the HTTP request header
+    "RequestHeaders":{
+        "Ocp-Apim-Subscription-Key":"e459325630614429b291adb42376d696",
+        "Content-type":"audio/wav; codec=audio/pcm; samplerate=16000",
+        "Transfer-Encoding":"chunked"
+    }
+}
